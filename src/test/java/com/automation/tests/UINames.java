@@ -51,6 +51,16 @@ public class UINames {
         return region;
     }
 
+    @Override
+    public String toString() {
+        return "UINames{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", gender='" + gender + '\'' +
+                ", region='" + region + '\'' +
+                '}';
+    }
+
     public void setRegion(String region) {
         this.region = region;
     }

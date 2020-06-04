@@ -200,7 +200,7 @@ public class TestCases {
                 get(baseURI).prettyPeek();
         response.then().assertThat().statusCode(200);
 
-        response.then().assertThat().body("size()", is(3));
+       response.then().assertThat().body("list.size()", is(3));
 
     }
 }
